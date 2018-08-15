@@ -60,6 +60,9 @@ See also:
 -----------------------------------------------------------
 -- poly1305
 
+
+require "compat53"
+
 local sunp = string.unpack
 
 local function poly_init(k)

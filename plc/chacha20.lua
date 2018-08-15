@@ -18,6 +18,8 @@ See also:
 
 ]]
 
+require "compat53"
+
 local app, concat = table.insert, table.concat
 
 ------------------------------------------------------------
