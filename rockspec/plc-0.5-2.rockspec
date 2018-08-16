@@ -1,9 +1,9 @@
 package = "plc"
-version = "0.5-1"
+version = "0.5-2"
 
 source = {
-    url = "git://github.com/philanc/plc.git",
-    branch = "v0.5",
+    url = "git://github.com/tock203/plc.git",
+    branch = "lua5.2",
 }
 
 description = {
@@ -16,11 +16,14 @@ description = {
 		512, MD5. Other: CRC32 and Adler32 checksums, Hex, Base64 and 
 		Base58 encoding)
     ]],
-    homepage = "http://github.com/philanc/plc",
+    homepage = "http://github.com/tock203/plc",
     license = "MIT/X11",
 }
 
-dependencies = { "lua >= 5.3" }
+dependencies = {
+    "lua == 5.2",
+    "compat53 == 0.7",
+}
 
 build = {
     type = "builtin",

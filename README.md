@@ -1,7 +1,6 @@
 ## PLC - Pure Lua Crypto
-
-A small collection of crpytographic functions, and related utilities, 
-implemented  in pure Lua  (version 5.3 or above)
+A fork for Lua 5.2.
+Currently, plc/bin.lua and plc/chacha20.lua are only ported.
 
 ### Recent changes
 
