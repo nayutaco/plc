@@ -1,5 +1,5 @@
 ## PLC - Pure Lua Crypto
-A fork for Lua 5.2.
+A fork for Lua 5.2.  
 Currently, plc/bin.lua and plc/chacha20.lua are only ported.
 
 ### Recent changes
